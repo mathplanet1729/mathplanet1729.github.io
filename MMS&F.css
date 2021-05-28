@@ -1,0 +1,60 @@
+
+#usp {
+    margin-top: 60px;
+}
+#usp li{
+    float: left;
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    list-style-type: none;
+    background-color:#bfacfb;
+}
+#usp li img {
+    height: 100px;
+    padding: 5px;
+    background-color:#5d1874;
+    border-radius: 20%;
+}
+#usp li h2 {
+    color: #5d1874;
+    font-size: 20px;
+    font-weight: 400;
+}
+#usp:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    background-color: #efc3e6;
+}
+a{
+    color: #5d1874;
+    text-decoration: NONE;
+    font-family: fantasy;
+}
+hr{
+    border: 3px ridge #5d1874;
+}
+body{
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a:hover{
+    color: darkblue;
+    font-style: italic;
+}
+
+h1{
+    color: #5d1874;
+    background-color: #bfacfb;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'patua one',cursive;
+    border: 10px ridge #5d1874;
+}
