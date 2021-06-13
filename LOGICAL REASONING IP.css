@@ -1,0 +1,86 @@
+h1{
+    color: #5d1874;
+    background-color: #bfacfb;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Patua one',cursive;
+    border: 10px ridge #5d1874;
+}
+div{
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    border: 8px ridge #5d1874;
+    color: #5d1874;
+    background-color: #bfacfb;
+    line-height: 30px;
+    padding:10px;
+}
+#VERBAL{
+    float: left;
+    margin-left: 400px;
+}
+#NON-VERBAL{
+    float: right;
+    margin-right: 500px;
+}
+.intro{
+    border: 30px ridge #5d1874;
+    display: inline;
+    float: left;
+}
+hr{
+    color: black;
+    background-color: black;
+    border: 2px ridge #5d1874;
+}
+img{
+    width: 500px;
+    border: 10px ridge #5d1874;
+    height: 300px;
+    float: left;
+}
+#DISC{
+    width: 500px;
+    border: 10px ridge #5d1874;
+    height: 400px;
+    float: left;
+}
+body{
+    background-color: #caf0f8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.des{
+    margin-left: 550px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: darkblue;
+}
+span{
+    font-family: 'lobster', cursive;
+    font-size: 30px;
+    color: #5d1874;
+    -webkit-text-stroke: 0px;
+}
+a{
+    font-size: 20px;
+    line-height: 1%;
+    color: darkblue;
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+}
+a:hover{
+    font-style: italic;
+}
+h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    display: inline;
+    text-decoration: none;
+    color: #5d1874;
+}

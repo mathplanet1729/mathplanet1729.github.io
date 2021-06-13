@@ -1,0 +1,55 @@
+  hr{
+      color: black;
+      background-color: black;
+      border: 2px ridge darkblue;
+  }
+
+  body{
+      background-color: lightblue;
+  }
+  h1{
+      color: #5d1874;
+      background-color: #bfacfb;
+      text-transform: uppercase;
+      text-align: center;
+      align-content: center;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: 'patua one',cursive;
+      border: 10px ridge #5d1874;
+  }
+  table{
+      border: 10px ridge darkblue;
+      text-align: center;
+      align-content: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  td{
+    border: 3px ridge darkblue;
+    color: darkblue;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+  }
+  tr{
+    border: 3px ridge darkblue;
+  }
+  th{
+    border: 3px ridge darkblue;
+  }
+  a{
+    text-decoration: none;
+    color: #5d1874;
+    font-size: 40px;
+    font-family: monospace;
+}
+  a:hover{
+    color: darkblue;
+    font-style: italic;}
+img {
+        height: 250px;
+        width: 330px;
+        background-color: #bfacfb;
+        border: 6px ridge #5d1874;
+}

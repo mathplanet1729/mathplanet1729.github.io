@@ -1,0 +1,96 @@
+.dropbtn {
+  background-color: #bfacfb;
+  color: #5d1874;
+  padding: 16px;
+  border-radius: 30px 0px 30px 0px;
+  font-size: 16px;
+  font-family: 'Patua one', cursive;
+  border: 6px ridge #5d1874;
+}
+
+.dropdown {
+  position: relative;
+  display: inline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #219ebc;
+  color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  border: 1px solid lightblue;
+  color: white;
+  padding: 2px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #c46df7;}
+
+
+#usp {
+    margin-top: 60px;
+}
+#usp li{
+    float: left;
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    list-style-type: none;
+}
+hr{
+    color: black;
+    background-color: black;
+    border: 2px ridge darkblue;
+}
+#usp li img {
+    height: 80px;
+    padding: 20px;
+    background-color: #bfacfb;
+    border-radius: 50%;
+    border: 6px ridge #5d1874;
+}
+#usp li h2 {
+    color: olivedrab;
+    background-color: #bfacfb;
+    font-size: 20px;
+    font-weight: 400;
+    border: 6px ridge #5d1874;
+}
+#usp:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    background-color: lightblue;
+}
+a{
+    color: yellow;
+}
+a:hover{
+    color: black;
+    font-style: italic;
+}
+h1{
+    color: #5d1874;
+    background-color: #bfacfb;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Patua One', cursive;;
+    border: 10px ridge #5d1874;
+}
