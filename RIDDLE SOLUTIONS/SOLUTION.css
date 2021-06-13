@@ -1,0 +1,68 @@
+h1{
+    color: #5d1874;
+    background-color: #bfacfb;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: PATUA ONE, cursive;
+    border: 10px ridge #5d1874;
+}
+body{
+    background-color: lightblue;
+}
+h2{
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 10000;
+    color: #5d1874;
+}
+a{
+    text-decoration: none;
+    color: #bfacfb;
+}
+mark{
+    background-color: lightblue;
+    color: #5d1874;
+    text-decoration: none;
+    border-radius: 20px;
+}
+a:hover{
+    color: white;
+}
+button{
+    margin-left: 20px;
+    background-color: #5d1874;
+    color: #bfacfb;
+    font-weight: 700;
+}
+button:hover{
+    background-color:blueviolet;
+    color: white;
+}
+#calculation{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    margin-left: 160px;
+}
+p{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #5d1874;
+    background-color: #bfacfb;
+}
+div{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 300px;
+    margin-right: 800px;
+    color: #5d1874;
+    background-color: #bfacfb;
+    text-align: center;
+}
+span{
+    font-family: 'lobster', cursive;
+}

@@ -1,0 +1,43 @@
+h1{
+    color: #5d1874;
+    background-color: #bfacfb;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Patua one',cursive;
+    border: 10px ridge #5d1874;
+}
+
+.video{
+    border: 20px ridge #5d1874;
+    display: inline;
+    width: 500px;
+    height: 300px;
+}
+hr{
+    color: black;
+    background-color: black;
+    border: 2px ridge #5d1874;
+}
+body{
+    background-color: #caf0f8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #5d1874;
+}
+span{
+    font-family: 'lobster', cursive;
+}
+h2{
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 10000;
+    color: #5d1874;
+}
