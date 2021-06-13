@@ -1,6 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        
+.head1{
+    background-color: #bfacfb;
+    float: right;
+    padding: auto;
+    color: #5d1874;
+    font-size: 1em;
+    margin-right: auto;
+    text-decoration: none;
+}
+.head{
+    background-color: #bfacfb;
+    color: #5d1874;
+    float: right;
+    padding: auto;
+    font-size: 1em;
+    margin-right: 2em;
+}
+
+#usp {
+    margin-top: 60px;
+}
+#usp li{
+    float: left;
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    list-style-type: none;
+}
+#usp li img {
+    height: 80px;
+    padding: 20px;
+    background-color: #219ebc;
+    border: 6px ridge darkblue;
+    border-radius: 30%;
+}
+#usp li h2 {
+    color: olivedrab;
+    font-size: 20px;
+    font-weight: 400;
+}
+#usp:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+body h1{
+	-webkit-text-stroke: 2px black;
+    font-size: 70px;
+    font-family: 'Zen DOts2',cursive;
+    color: blue;
+    text-shadow: 1px 1px 1px lightskyblue,
+    1px 2px 1px lightblue,
+    1px 3px 1px lightblue,
+    1px 4px 1px lightblue,
+    1px 5px 1px lightblue,
+    1px 6px 1px lightblue,
+    1px 7px 1px lightblue,
+    1px 8px 1px lightblue,
+    1px 9px 1px lightblue,
+    1px 10px 1px lightblue,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4);
+    text-align: center;
+    align-content: center;
+    border: 7px ridge #5d1874;
+    background-color: #bfacfb;
+}
+body{
+    background-color: #caf0f8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+hr{
+    color: black;
+    background-color: black;
+    border: 2px ridge darkblue;
+}
+#logo {
+    float: left;
+    padding-left: 10px;
+    padding-top: 8px;
+    border: #bfacfb;
+}
+.foot_img{
+    width: 70px;
+}
+#l{
+    color: #5d1874;
+    font-weight: 150px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#l:hover{
+    color: darkblue;
+    font-style: italic;
+}
+#main-banner {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+#main-banner img {
+    width: 100%;
+}
+#slider {
+    overflow: hidden;
+}
+#slides {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 18s slidy infinite;
+}
+#slides img {
+    width: 20%;
+    float: left;
+}
+/* Animation */
+@keyframes slidy {
+    0% { left: 0%; }
+    28% { left: 0%; }
+    33% { left: -100%; }
+    61% { left: -100%; }
+    66% { left: -200%; }
+    94% { left: -200%; }
+    100% { left: 0%; }
+}
+#footer{
+    background-color: #219ebc;
+    border: 10px ridge darkblue;
+}
+h2{
+    font-family:fantasy;
+    text-decoration: none;
+}
+h3{
+    padding-left: 10px;
+    padding-top: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    color: #fff;
+    display: inline;
+	-webkit-text-stroke: 1px black;
+	text-shadow: 0px 4px 4px #282828;
+}
+.contact{
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+    font-family: monospace;
+    color: #fff;
+    display: inline;
+}
+#mail{
+    border-radius: 50%;
+    border-width: 5px; 
+    border-style: double;
+    border-left-color: darkblue;
+    border-bottom-color: darkblue;
+    border-top-color: lightblue;
+    border-right-color: lightblue;
+    text-decoration: none;
+    padding: 4px;
+}
+.tel{
+    display: inline;
+    padding: 4px;
+    border-radius: 50%;
+    border-width: 5px; 
+    border-style: double;
+    border-left-color: darkblue;
+    border-bottom-color: darkblue;
+    border-top-color: lightblue;
+    border-right-color: lightblue;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+}
+#mail_id{
+    text-decoration: none;
+    display: inline;
+    padding-left: 10px;
+}
+#mail:hover{
+    
+    border-left-color: lightblue;
+    border-bottom-color: lightblue;
+    border-top-color: darkblue;
+    border-right-color: darkblue;
+}
+button{
+    background-color: darkblue;
+}
+.intro{
+    align-self: center;
+    align-content: center;
+    border-radius: 50;
+    border: 10px solid black;
+    margin-left: 50;
+    margin-right: 0;
+}
+#intro_head{
+    color: #5d1874;
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+    </style>
     <title>PLANET OF MATHS!</title>
     <link rel="stylesheet" href="./MAIN SCREEN.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
