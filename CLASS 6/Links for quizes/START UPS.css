@@ -1,0 +1,63 @@
+
+h1{
+    text-transform: uppercase;
+    color: #4e148c;
+    background-color: rgb(173, 207, 207);
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+    border: 4px ridge #4e148c;
+}
+#but{
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#button{
+    background-color: #4e148c;
+    color: rgb(173, 207, 207);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(173, 207, 207);
+    text-shadow: 1px 1px 1px #000;
+    
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(173, 207, 207);
+    color: #4e148c;
+    font-size: 30px;
+    text-align: center;
+    border: 4px ridge #4e148c;
+}
+body{
+    background-image: url(/CLASS\ 6/pics/quiz-background-with-items-in-flat-design_23-2147599082.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+ 
+#PART{
+    text-transform: uppercase;
+    color: navy;
+}
+hr{
+    color: black;
+    background-color: black;
+    border: 2px ridge darkblue;
+}
+iframe{
+    border: 10px ridge darkblue;
+}

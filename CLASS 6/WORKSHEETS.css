@@ -1,0 +1,44 @@
+a{
+    color:navy;
+   
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+a:hover{
+    font-style: italic;
+    color:#081c15;
+}
+
+#worksheets{
+    background-color:plum;
+    border-radius: 50%;
+    border: 4px ridge navy;
+}
+
+h1{
+    text-transform: uppercase;
+    color: green;
+    background-color: lightcyan;
+    align-content: center;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 40px;
+}
+
+body{
+    background: url(./pics/gps-math.png);
+    align-content: center;
+    text-align: center;
+}
+hr{
+    border: 1px ridge black;
+}
+ #div{
+     border: 10px ridge darkred;
+     background-color: gold;
+     width: 30%;
+     margin-left: 35%;
+     margin-right: 30%;
+ }

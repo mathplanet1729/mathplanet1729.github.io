@@ -1,0 +1,69 @@
+h1{
+    color: #5d1874;
+    background-color: #bfacfb;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Patua one',cursive;
+    border: 10px ridge #5d1874;
+}
+
+.intro{
+    border: 30px ridge #5d1874;
+    display: inline;
+    float: left;
+}
+hr{
+    color: black;
+    background-color: black;
+    border: 2px ridge #5d1874;
+}
+img{
+    width: 500px;
+    border: 10px ridge #5d1874;
+    height: 300px;
+    float: left;
+}
+#DISC{
+    width: 500px;
+    border: 10px ridge #5d1874;
+    height: 350px;
+    float: left;
+}
+body{
+    background-color: #caf0f8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.des{
+    margin-left: 550px;
+}
+p{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #5d1874;
+}
+span{
+    font-family: 'lobster', cursive;
+    font-size: 30px;
+    color: #5d1874;
+    -webkit-text-stroke: 0px;
+}
+a{
+    font-size: 30px;
+    color: darkblue;
+    text-decoration: underline;
+}
+a:hover{
+    font-style: italic;
+}
+h2{
+    font-family: 'Permanent Marker', cursive;
+    -webkit-text-stroke: 3px #5d1874;
+    font-size: 40px;
+    display: inline;
+    text-decoration: none;
+    color: #bfacfb;
+}
